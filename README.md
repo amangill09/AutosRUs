@@ -8,13 +8,14 @@ I worked with Puneeth N for this challenge. We followed pair-programming methodo
 ## **Linear Regression to Predict MPG""
 
 The output of linear regression can be seen here:
+
 ![Linear Regression Summary](/data/Deliverable_1.png)
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-    vehicle_length and ground_clearance 
-- Is the slope of the linear model considered to be zero? Why or why not?
-    The p-value from this analysis was 5.35e-11, which is much smaller than our significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis that the slope is not equal to 0.
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?  
+vehicle_length and ground_clearance 
+- Is the slope of the linear model considered to be zero? Why or why not?  
+The p-value from this analysis was 5.35e-11, which is much smaller than our significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis that the slope is not equal to 0.
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?  
     The R-Squared value of this model is 0.71, indicating a moderately strong likelihood (>70% chance) that this model can be used to predict mpg values in the dataset
 
 ## **Summary Statistics on Suspension Coils**
@@ -22,6 +23,7 @@ The output of linear regression can be seen here:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 The output can be seen here: 
+
 ![Total Summary](/data/Deliverable_2a.png)
 
 ![Lot Summary](/data/Deliverable_2b.png)
