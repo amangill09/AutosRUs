@@ -8,7 +8,7 @@ I worked with Puneeth N for this challenge. We followed pair-programming methodo
 ## **Linear Regression to Predict MPG""
 
 The output of linear regression can be seen here:
-[Linear Regression Summary](/data/Deliverable_1.png)
+![Linear Regression Summary](/data/Deliverable_1.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     vehicle_length and ground_clearance 
@@ -22,9 +22,9 @@ The output of linear regression can be seen here:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 The output can be seen here: 
-[Total Summary](/data/Deliverable_2a.png)
+![Total Summary](/data/Deliverable_2a.png)
 
-[Lot Summary](/data/Deliverable_2b.png)
+![Lot Summary](/data/Deliverable_2b.png)
 
 Looking at each lot individually, we can see that all lots (1-3) produce similar mean PSI values (~1500 PSI), however Lot3 produces extremely high variance (170.28) compared to Lot1 and Lot2 (0.97 and 7.46 respectively). Lot1 and Lot2 meet the design specification, but Lot3 does not since the variance produced by this lot exceeds 100.
 
@@ -32,11 +32,11 @@ Looking at each lot individually, we can see that all lots (1-3) produce similar
 
 Here are the outputs from T Tests:
 
-[All vs 1500](/data/Deliverable_3a.png)
+![All vs 1500](/data/Deliverable_3a.png)
 
 Comparing the PSI values from all manufacturing lots to the population mean produces a p-value of 0.06, which does not pass our signficance level of 0.05. Therefore, we do not have enough evidence to reject the null hypothesis. This means that when analyzing PSI values from all manufacturing lots combined, there is not significant variation in the lots compared to the population mean.
 
-[Lots vs 1500](/data/Deliverable_3b.png)
+![Lots vs 1500](/data/Deliverable_3b.png)
 
 Same is true for Lot1 and Lot2, however P value for Lot3 is lower than our significance level of .05. Therefore, we have enough evidence to fail to reject the null hypothesis. PSI values from Lot 3 are significantly different from the population mean. This supports our previous findings from the summary table, which revealed that the variance in PSI values from Lot 3 did not meet the design specification for the amount of variance allowed.
 
